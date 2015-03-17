@@ -19,12 +19,31 @@ h1 {
     display: none;
 }
 h2 {
-    font-size: 120px;
+    font-size: 50px;
     font-family: 'Poiret One', cursive;
-    letter-spacing: 20px;
+    letter-spacing: 12px;
 }
 h3 {
     color: rgba(0,0,0,0.4);
-    font-size: 36px;
+    font-size: 16px;
     font-family: 'Raleway', sans-serif;
+}
+
+/* ----- breakpoints ----- */
+@media only screen and (min-width: 361px) {
+    h2 {
+        font-size: 70px;
+        letter-spacing: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 641px) {
+    h2 {
+        font-size: 120px;
+    }
+    h3 {
+        font-size: 36px;
+    }
 }
