@@ -1,0 +1,1 @@
+$(document).ready(function(){function o(o,e){}console.log("Document ready!");var e="https://www.googleapis.com/freebase/v1/topic/m/09yhzs";$.get(e,o)});
