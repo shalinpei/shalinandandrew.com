@@ -85,6 +85,7 @@ header h1 {
 header p {
     color: #e5b0ad;
     font-size: 20px;
+    font-family: 'Playfair Display', serif;
 }
 
 /* =============== SECTIONS =============== */
@@ -106,6 +107,7 @@ h2 span {
     font-size: 17px;
 }
 h4 {
+    font-size: 15px;
     color: rgba(0,0,0,0.8);
 }
 
@@ -122,7 +124,7 @@ h4 {
     padding-bottom: 20px;
 }
 #schedule p.time {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -173,20 +175,24 @@ footer {
     header h1 {
         font-size: 80px;
     }
-    header p {
+/*    header p {
         font-size: 46px;
-    }
-    h2 {
-        font-size: 30px;
+    }*/
+    header p, h2 {
+        font-size: 28px;
     }
     h2 span {
         font-size: 22px;
     }
     h4 {
-        font-size: 16px;
+        font-size: 18px;
+        padding-bottom: 5px;
     }
     p {
         font-size: 16px;
+    }
+    #schedule .events li {
+        padding-bottom: 30px;
     }
     #registry h2 {
         top: -18px;
@@ -207,10 +213,10 @@ footer {
     header h1 {
         font-size: 50px;
     }
-    header p {
-        font-size: 26px;
+/*    header p {
+        font-size: 28px;
     }
-/*    #schedule ol {
+    #schedule ol {
         display: -webkit-flex;
         display: flex;
     }
